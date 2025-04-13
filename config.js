@@ -1,12 +1,11 @@
 module.exports = {
-    botToken: "", // Token du bot Discord
-    url: '', // URL du serveur Pronote
-    username: '', // Identifiant du compte Pronote ou de votre ENT
-    password: '', // Mot de passe du compte Pronote ou de votre ENT
-    cas: "", // Nom de votre ENT (voire liste en fin du fichier)
-    salonEdt: ``, // ID du salon où sera affiché l'emploi du temps
+    botToken: "MTM2MTA1MTQyNzg0MTI0OTQ4MQ.Gl5GU0.anItSaYqgK3uoly9xh5jqUPlfRWG0P_DTNm8Js", // Token du bot Discord
+    url: 'http://clg-jeanmoncla.com/pronote', // URL du serveur Pronote
+    username: 'admin', // Identifiant du compte Pronote ou de votre ENT
+    password: 'Luka050212Luka!', // Mot de passe du compte Pronote ou de votre ENT
+    salonEdt: `1341786790851379231`, // ID du salon où sera affiché l'emploi du temps
     msgEdt: ``, // ID du message où sera affiché l'emploi du temps
-    salonDevoirs: ``, // ID du salon où sera affiché les devoirs
+    salonDevoirs: `1341786790851379231`, // ID du salon où sera affiché les devoirs
     msgDevoirs: ``, // ID du message où sera affiché les devoirs
     sendMessageWhenAbsent: false, // Envoyer un message quand un professeur est absent
     absentChannel: ``, // ID du salon où seront envoyés les messages d'absences
