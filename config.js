@@ -1,18 +1,4 @@
 module.exports = {
-    botToken: "MTM2MTA1MTQyNzg0MTI0OTQ4MQ.Gl5GU0.anItSaYqgK3uoly9xh5jqUPlfRWG0P_DTNm8Js", // Token du bot Discord
-    url: 'http://clg-jeanmoncla.com/pronote', // URL du serveur Pronote
-    username: 'admin', // Identifiant du compte Pronote ou de votre ENT
-    password: 'Luka050212Luka!', // Mot de passe du compte Pronote ou de votre ENT
-    salonEdt: `1341786790851379231`, // ID du salon où sera affiché l'emploi du temps
-    msgEdt: ``, // ID du message où sera affiché l'emploi du temps
-    salonDevoirs: `1341786790851379231`, // ID du salon où sera affiché les devoirs
-    msgDevoirs: ``, // ID du message où sera affiché les devoirs
-    sendMessageWhenAbsent: false, // Envoyer un message quand un professeur est absent
-    absentChannel: ``, // ID du salon où seront envoyés les messages d'absences
-    // Pour générer un message, faite .msgGen dans le salon où vous voulez afficher le message
-    // Pour générer un token de bot Discord, veuillez créer une application sur https://discordapp.com/developers/applications/
-}
-
 /* Liste des CAS disponibles (pour connexion à pronote via l'ENT)
 - Académie d'Orleans-Tours (CAS : ac-orleans-tours, URL : "ent.netocentre.fr")
 - Académie de Besançon (CAS : ac-besancon, URL : "cas.eclat-bfc.fr")
